@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -596,6 +596,101 @@ video {
   display: flex;
 }
 
+.main-header-icons {
+  margin-right: 1.25rem;
+  border-radius: 9999px;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(63 102 145 / var(--tw-border-opacity));
+  padding: 0.5rem;
+}
+
+.main-header-text {
+  height: 100%;
+  font-family: Roboto-Medium;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+}
+
+.main-element-title {
+  font-family: Roboto-Bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.-top-\[9px\] {
+  top: -9px;
+}
+
+.top-\[21px\] {
+  top: 21px;
+}
+
+.top-\[121px\] {
+  top: 121px;
+}
+
+.top-\[221px\] {
+  top: 221px;
+}
+
+.top-\[170px\] {
+  top: 170px;
+}
+
+.top-\[150px\] {
+  top: 150px;
+}
+
+.top-\[10px\] {
+  top: 10px;
+}
+
+.top-\[140px\] {
+  top: 140px;
+}
+
+.top-\[130px\] {
+  top: 130px;
+}
+
+.top-\[12px\] {
+  top: 12px;
+}
+
+.top-\[125px\] {
+  top: 125px;
+}
+
+.top-\[22px\] {
+  top: 22px;
+}
+
+.top-\[229px\] {
+  top: 229px;
+}
+
+.top-\[px\] {
+  top: px;
+}
+
+.top-\[334px\] {
+  top: 334px;
+}
+
+.top-\[333px\] {
+  top: 333px;
+}
+
 .m-10 {
   margin: 2.5rem;
 }
@@ -610,6 +705,14 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-\[29\.8px\] {
+  margin-left: 29.8px;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -620,6 +723,10 @@ video {
 
 .mr-5 {
   margin-right: 1.25rem;
+}
+
+.mr-7 {
+  margin-right: 1.75rem;
 }
 
 .mr-auto {
@@ -634,8 +741,8 @@ video {
   margin-top: 2rem;
 }
 
-.mr-4 {
-  margin-right: 1rem;
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -646,12 +753,28 @@ video {
   aspect-ratio: 1 / 1;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-3\.5 {
+  height: 0.875rem;
+}
+
 .h-\[150px\] {
   height: 150px;
 }
 
-.h-\[1754px\] {
-  height: 1754px;
+.h-\[1765px\] {
+  height: 1765px;
+}
+
+.h-\[20px\] {
+  height: 20px;
+}
+
+.h-\[94px\] {
+  height: 94px;
 }
 
 .h-fit {
@@ -663,20 +786,8 @@ video {
   height: 100%;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-9 {
-  height: 2.25rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-8 {
-  height: 2rem;
+.w-0\.5 {
+  width: 0.125rem;
 }
 
 .w-\[1240px\] {
@@ -687,21 +798,36 @@ video {
   width: 150px;
 }
 
-.w-\[20px\] {
-  width: 20px;
-}
-
 .w-full {
   width: 100%;
 }
 
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
+.min-w-\[200px\] {
+  min-width: 200px;
 }
 
-.w-\[50px\] {
-  width: 50px;
+.min-w-\[500px\] {
+  min-width: 500px;
+}
+
+.min-w-\[20px\] {
+  min-width: 20px;
+}
+
+.min-w-\[250px\] {
+  min-width: 250px;
+}
+
+.min-w-\[210px\] {
+  min-width: 210px;
+}
+
+.min-w-\[220px\] {
+  min-width: 220px;
+}
+
+.min-w-\[225px\] {
+  min-width: 225px;
 }
 
 .shrink-0 {
@@ -732,6 +858,11 @@ video {
   justify-content: space-between;
 }
 
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
 .divide-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
@@ -751,6 +882,10 @@ video {
   --tw-divide-opacity: 0.65;
 }
 
+.text-nowrap {
+  text-wrap: nowrap;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -759,30 +894,13 @@ video {
   border-width: 4px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-l-0 {
   border-left-width: 0px;
-}
-
-.border-solid {
-  border-style: solid;
-}
-
-.border-dashed {
-  border-style: dashed;
 }
 
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-\[\#3f6691\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(63 102 145 / var(--tw-border-opacity));
 }
 
 .bg-\[\#3f6691\] {
@@ -795,25 +913,6 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\.\.\/res\/school_icon_black\.svg\'\)\] {
-  background-image: url('../res/school_icon_black.svg');
-}
-
 .bg-\[url\(\'\.\.\/res\/school_icon\.svg\'\)\] {
   background-image: url('../res/school_icon.svg');
 }
@@ -822,36 +921,8 @@ video {
   background-size: cover;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-repeat {
-  background-repeat: repeat;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-10 {
@@ -868,6 +939,10 @@ video {
   padding-top: 2.5rem;
 }
 
+.font-roboto_bold {
+  font-family: Roboto-Bold;
+}
+
 .font-roboto_medium {
   font-family: Roboto-Medium;
 }
@@ -876,12 +951,9 @@ video {
   font-family: Roboto-Regular;
 }
 
-.font-roboto_black {
-  font-family: Roboto-Black;
-}
-
-.font-roboto_bold {
-  font-family: Roboto-Bold;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -889,26 +961,14 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
-.font-medium {
-  font-weight: 500;
-}
-
-.font-\[1100\] {
-  font-weight: 1100;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .uppercase {
@@ -919,9 +979,9 @@ video {
   letter-spacing: 0.05em;
 }
 
-.text-blue-950 {
+.text-\[\#3f6691\] {
   --tw-text-opacity: 1;
-  color: rgb(23 37 84 / var(--tw-text-opacity));
+  color: rgb(63 102 145 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -929,23 +989,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#3f6691\] {
-  --tw-text-opacity: 1;
-  color: rgb(63 102 145 / var(--tw-text-opacity));
-}
-
-.bg-blend-multiply {
-  background-blend-mode: multiply;
-}
-
 .bg-blend-overlay {
   background-blend-mode: overlay;
-}
-
-.bg-blend-difference {
-  background-blend-mode: difference;
-}
-
-.bg-blend-exclusion {
-  background-blend-mode: exclusion;
 }

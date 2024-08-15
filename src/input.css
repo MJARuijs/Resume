@@ -38,4 +38,16 @@
     .side-bar-list-components {
         @apply flex my-5;
     }
+
+    .main-header-icons {
+        @apply border-[#3f6691] rounded-full border-2 p-2 mr-5;
+    }
+
+    .main-header-text {
+        @apply h-full uppercase text-4xl font-roboto_medium
+    }
+
+    .main-element-title {
+        @apply text-2xl font-roboto_bold;
+    }
 }
