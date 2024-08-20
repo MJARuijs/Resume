@@ -10,6 +10,11 @@ module.exports = {
       roboto_bold: ['Roboto-Bold'],
       roboto_black: ['Roboto-Black'],
     },
+    colors: {
+      white: '#ffffff',
+      black: '#000000',
+      list_decoration: '#000'
+    },
     extend: {},
   },
   plugins: [],
